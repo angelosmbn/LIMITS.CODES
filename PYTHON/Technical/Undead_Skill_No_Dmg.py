@@ -91,8 +91,6 @@ class Undead:
                     print(self.getName(), "a", self.getType(), ability, undead.getName(), "a", undead.getType())
                     print(self.getName(), "gain", hp_gain, "HP")
 
-                    damage = hp_gain * .1 if isinstance(undead, Ghost) else damage
-
                 else:
                     print("Target", end=" ")
                     undead.status()
