@@ -28,10 +28,10 @@
     <center><h1> Multiplication Table</h1></center>
     <table>
         <tr>
-            <th>0</th>
+            <th>hi</th>
             <?php
             for ($i = 1; $i <= 10; $i++) {
-                echo "<th>0</th>";
+                echo "<th>1</th>";
             }
             ?>
         </tr>
